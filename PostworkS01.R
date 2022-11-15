@@ -29,11 +29,18 @@ sp1 <- read.csv("SP1.csv")
 
 #4. Del dataframe que resulta de importar los datos a `R`, extrae las columnas que contienen los números de goles anotados por los equipos que jugaron en casa (FTHG) y los goles anotados por los equipos que jugaron como visitante (FTAG); guárdalos en vectores separados
 
+goles_casa<-sp1$FTHG
+goles_visitante<-sp1$FTAG
+
 #4. Consulta cómo funciona la función `table` en `R`. Para ello, puedes ingresar los comandos `help("table")` o `?table` para leer la documentación.
+tabla_goles<-table(goles_casa,goles_visitante)
+
 
 #5. Responde a las siguientes preguntas:
 #  a) ¿Cuántos goles tuvo el partido con mayor empate?
+  #49 partidos 1,1
 #  b) ¿En cuántos partidos ambos equipos empataron 0 a 0?
+  #33
 #  c) ¿En cuántos partidos el equipo local (HG) tuvo la mayor goleada sin dejar que el equipo visitante (AG) metiera un solo gol?
-  
+  1 partido
 #  __Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
