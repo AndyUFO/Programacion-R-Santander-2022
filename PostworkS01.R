@@ -38,9 +38,9 @@ tabla_goles<-table(goles_casa,goles_visitante)
 
 #5. Responde a las siguientes preguntas:
 #  a) ¿Cuántos goles tuvo el partido con mayor empate?
-  #49 partidos 1,1
+  49 partidos 1,1
 #  b) ¿En cuántos partidos ambos equipos empataron 0 a 0?
-  #33
+  33
 #  c) ¿En cuántos partidos el equipo local (HG) tuvo la mayor goleada sin dejar que el equipo visitante (AG) metiera un solo gol?
   1 partido
 #  __Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
