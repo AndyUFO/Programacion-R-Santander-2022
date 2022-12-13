@@ -34,13 +34,30 @@ goles_visitante<-sp1$FTAG
 
 #4. Consulta cómo funciona la función `table` en `R`. Para ello, puedes ingresar los comandos `help("table")` o `?table` para leer la documentación.
 tabla_goles<-table(goles_casa,goles_visitante)
+tabla_goles
+
+#             goles_visitante
+# goles_casa  0  1  2  3  4  5
+#          0 33 28 15  8  2  2
+#          1 43 49 32  5  3  0
+#          2 39 35 20  3  2  0
+#          3 14 14  7  2  1  0
+#          4  4  5  4  0  1  0
+#          5  2  3  3  0  0  0
+#          6  1  0  0  0  0  0
 
 
 #5. Responde a las siguientes preguntas:
 #  a) ¿Cuántos goles tuvo el partido con mayor empate?
-  49 partidos 1,1
+
+   # 49 partidos 1,1
+
 #  b) ¿En cuántos partidos ambos equipos empataron 0 a 0?
-  33
+  
+   # 33 partidos
+
 #  c) ¿En cuántos partidos el equipo local (HG) tuvo la mayor goleada sin dejar que el equipo visitante (AG) metiera un solo gol?
-  1 partido
+   
+   # 1 partido 6-0
+
 #  __Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
